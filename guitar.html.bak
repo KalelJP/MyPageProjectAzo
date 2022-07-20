@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de-ch">
+    <head>
+        <meta charset="utf-8">
+        <title>Meine Gitarre</title>
+		<link rel="stylesheet" type="text/css" href="style.css" title="MyPageStyle"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+		<link rel="Shortcut Icon" type="image/lelak-icon" href="icon.jpg" title="Logo Gargantua"/>		
+    </head>
+    <body>
+		<main>
+			
+			<nav class="topNav sticky">
+				  <a href="index.html">Home</a>
+				  <a href="about.html">Über Mich</a>
+				  <a class="active" href="guitar.html">Meine Gitarre</a>
+				  <a href="songs.html">Songs</a>
+				  <a href="guitarists.html">Lieblingsgitarristen</a>
+				  <img id="logo" src="logo.png" alt="Logo Gargantua"/>
+			</nav>
+			
+			<header>
+				<h1> </h1>
+			</header>
+			
+			<article>
+				<h2> </h2>
+				<section>
+					<h3> </h3>
+					<p> </p>
+				</section>
+			</article>
+			
+			<footer class="footer">
+				<hr>
+				<h4>Impressum</h4>
+				<p>Kalel Jong Poeta</p>
+				<p>Email: kalel.jong_poeta@i-azo.ch</p>
+				<p>Telefonnummer: +41 076 377 78 02</p>
+				<p>Adresse: Sonnenbergstrasse 14 8610 Uster</p>
+			</footer>
+		</main>
+    </body>
+</html>

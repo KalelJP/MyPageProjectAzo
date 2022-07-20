@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de-ch">
+    <head>
+        <meta charset="utf-8">
+        <title>Über mich</title>
+		<link rel="stylesheet" type="text/css" href="style.css" title="MyPageStyle"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+		<link rel="Shortcut Icon" type="image/lelak-icon" href="icon.jpg" title="Logo Gargantua"/>		
+    </head>
+    <body>
+		<main>
+			
+			<nav class="topNav sticky">
+				  <a  href="index.html">Home</a>
+				  <a href="songs.html">Songs</a>
+				  <a href="guitarists.html">Lieblingsgitarristen</a>
+				  <a class="active" href="about.html">Über Mich</a>
+				  <a href="guitar.html">Meine Gitarre</a>
+				  <img id="logo" src="logo.png" alt="Blackhole Logo"/>
+			</nav>
+			
+			<div class="bgImage" id="bgImage2"></div>
+			
+			<header class="bgText">
+				<h1>Über mich</h1>
+			</header>
+			
+			<h2 id="aboutMe">Über mich</h2>
+			
+			<div> 
+				<img id="kalelpfp" src="kalelpfp.jpg" alt="Bild von Kalel">
+			</div>
+			
+			<div id="aboutArticle">
+				<p>
+					Ich heisse Kalel Jong Poeta. Ich bin 16 Jahre alt und eines meiner Hobbys ist Gitarre zu spielen.
+				</p>
+				<p>
+					Ich bin Brasilianer und wohne in der Schweiz seit knapp 4 Jahren. Ich fing an vor einem Jahr Gitarre zu spielen.
+					Mein Bruder hatte in August 2020 eine akustische Gitarre gekauft und ich war auch interessiert ein Lied auf der Gitarre
+					zu spielen lernen aber ich hatte noch gar keine Erfahrung mit Musikinstrumente.<br>
+				</p>
+				
+				<p>
+					Das Lied, das ich lernen wollte, war auf einem sehr schwierigeren Level im Vergleich zu dem Niveau 0, wo ich gerade war.
+					Es dauerte 6 lange Monate bis ich mein erstes Lied auf der Gitarre spielen konnte, es hat sich aber wirklich gelohnt.
+					Ich bin kein Experte und weiss, dass ich noch sehr viel zum Lernen habe, aber Gitarre spielen macht sehr viel Spass
+					und ich bin immer froh,wenn ich für andere Personen spielen kann.
+				</p>
+			</div>
+			
+			<footer class="footer footer2">
+				<hr>
+				<h4>Impressum</h4>
+				<p>Kalel Jong Poeta</p>
+				<p>Email: kalel.jong_poeta@i-azo.ch</p>
+				<p>Telefonnummer: +41 076 377 78 02</p>
+				<p>Adresse: Sonnenbergstrasse 14 8610 Uster</p>
+			</footer>
+		</main>
+    </body>
+</html>		

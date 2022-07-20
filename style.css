@@ -1,0 +1,406 @@
+html{
+	 scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans';
+	font-size: 22px;
+	
+}
+
+#bodyIndex{
+  background-image: url("background_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3, caption{
+	color:#9400D3;
+}
+
+
+td, caption{
+	text-align:left;
+	padding-left: 5px;
+}
+
+audio{
+	margin: 5px;
+	margin-top:55px;
+}
+
+a{
+	color: black; 
+	text-decoration: none;
+}
+.center {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 20px;
+  padding: 10px;
+  width: 70%;
+}
+
+#description{
+	padding:10px;	
+	color:black;
+	background-color: rgb(0,0,0); 
+	background-color: rgba(255,255,255, 0.6);
+	position: absolute;
+	top: 45%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	text-align:center;
+	border-radius:10px;
+	margin-left:30%;
+}
+
+.footer{
+    position: relative;
+	margin-top: auto;
+	font-size: 14px;
+	text-align:center;
+}
+
+.footer1{
+	margin-top:960px;
+	color:white;
+}
+
+.footer2{
+	margin-top:500px;
+	width:100%;
+}
+
+.footer3{
+	margin-top:1000px;
+	width:100%;
+}
+
+.footer5{
+	margin-top:500px;
+}
+
+.footer4{
+	margin-top:1000px;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+} 
+
+.topNav {
+ 
+  position:sticky;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid #9400D3 ;
+}
+
+.topNav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topNav a:hover {
+  background-color: #ddd;
+  color: #9400D3 ;
+}
+
+.topNav a.active {
+  background-color:#9400D3;
+  color: white;
+}
+
+#logo{
+	position: absolute;
+	top: -6px;
+	right: 20px;
+	width: 100px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bgImage {
+	
+  margin-top:5px;
+
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+ 
+  height:450px;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgImage2{
+	background-image: url("background_2.jpg");
+	filter: saturate(3) blur(0px);
+}
+
+.bgImage3{
+	background-image: url("background_3.jpg");
+	filter: saturate(3) blur(0px);
+}
+
+#bgImage4{
+	background-image: url("background_4.jpg");
+	height:450px;
+}
+
+.bgImage5{
+	background-image: url("background_5.jpg");
+	filter: saturate(1.5) blur(1.5px);
+}
+
+.bgText {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.5);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 1200px;
+  padding: 20px;
+  text-align: center;
+}
+
+.bgText1{
+	background-color: rgba(0,0,0, 0.7);
+	top: 20%;
+}
+
+#guitarists{
+	margin-left: 16%;
+	width: 1500px;
+	padding: 10px;
+}
+
+#titleGuitarist{
+	margin-left: 560px;
+}
+
+.flip-card {
+  float: left;
+  background-color: transparent;
+  margin-right: 20px;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;       
+  border-radius: 50%;  
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width:300px;
+  height:300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width:300px;
+  height:300px;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  vertical-align:center;
+}
+
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  border-radius: 50%;
+}
+
+
+.flip-card-back {
+  background-color:  #9400D3;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 50%;
+}
+
+.avatar{
+	width:300px;
+	height:300px;
+	border-radius: 50%;
+}
+
+#cards{
+  margin-left: 10px;
+  margin-bottom: 100px;
+}
+
+.card {
+  float:left;
+  margin:10px;
+  border-radius:10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 30px 16px 0 rgba(0,0,0,0.2);
+  color:#9400D3;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.songImage{
+	width:290px;
+	height:290px;
+}
+
+#favSongs{
+	margin-left: 30px;
+}
+
+#songInfo{
+	margin-top: 400px;
+	margin-left: 30px;
+}
+
+.songTitle{
+	color:#9400D3;
+}
+
+.albumcover{
+	width:200px;
+	height:200px;
+	float:left;
+	border-radius:5px;
+}
+
+.songTable{
+	float:left;
+	margin-right: 40px;
+}
+
+#subtitle{
+	font-size:17px;
+	margin-left: 30px;
+}
+
+section.targets:target {
+	 background-color: rgba(148, 0, 211, 0.2);
+	 border-radius:5px;
+	 padding-left:5px;
+}
+
+#rumine{
+	margin-left: 10px;
+}
+
+#stairwaytoheaven{
+	margin-left: 60px;
+}
+
+#frusciante h4{
+	color:#9400D3;
+	text-align:left;
+}
+
+#frusciante{
+	margin-top: 200px;
+	float:left;
+}
+
+.text{
+	padding-right: 1000px;
+	
+}
+
+.guitaristPic{
+	float:right;
+}
+
+#aboutArticle{
+	margin-top:-30px;
+	float:left;
+	padding-left: 20px;
+	width:1000px;
+}
+
+#aboutMe{
+	margin-left:50px;
+	color:#9400D3;
+}
+
+#kalelpfp{
+	float:left;
+	margin-left: 50px;
+	border-radius:5px;
+}
+
+#specifications{
+	
+	float:left;
+	margin-left: 50px;
+}
+
+#aboutGuitar{
+	margin-left:50px;
+	width: 700px;
+	float: left;
+}
+
+.wholeView{
+	margin:50px;
+	height: 600px;
+	float:right;
+	border-radius:10px;
+}
+
+.livingRoom{
+	margin-left:20px;
+	margin-top:150px;
+	height: 600px;
+	position: absolute;
+	border-radius:10px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .flip-card {
+	float: none;
+    margin-right: auto;
+    margin: auto;
+}
+  
+  .bgText {
+	  top: 50%;
+	  left: 50%;
+	  width: auto;
+	}
+}
